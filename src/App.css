@@ -1,0 +1,45 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  color: purple;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 8px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: yellowgreen;
+  border: 2px solid purple;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: black;
+}
+
+.restart {
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
